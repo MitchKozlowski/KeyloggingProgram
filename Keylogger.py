@@ -11,7 +11,7 @@ if wipeAnswer.lower() == "y":  # Handles both "y" and "Y"
 else:
     print("File was not wiped.")
 
-# ✅ Ensure this write operation completes before starting the listener
+# Ensure this write operation completes before starting the listener
 with open("KeyLogFile.txt", "a") as f:
     f.write("\n ----New Entries---- \n")
 
